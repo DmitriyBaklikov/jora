@@ -1,8 +1,8 @@
 {
   "name": "jora",
   "productName": "Jora",
-  "version": "0.0.0",
-  "description": "My luminous app",
+  "version": "0.0.1",
+  "description": "Jora for Jira",
   "license": "MIT",
   "repository": "DmitriyBaklikov/jora",
   "author": {
