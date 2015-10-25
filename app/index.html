@@ -1,24 +1,30 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>Jora for Jira</title>
-    <link rel="stylesheet" href="stylesheets/index.css">
+
+    <script language='javascript' type='text/javascript' src='init.js'></script>
+    <link rel='stylesheet' href='stylesheets/index.css'>
   </head>
 
   <body>
-    <div class="container">
+    <div class='container'>
       <header>
         <h1>Jora</h1>
       </header>
 
-      <section class="main">
+      <section class='main'>
+        <div>
+          <a href="#" class="jira-search-btn">Search Jira</a>
+        </div>
 
+        <div>
+          <textarea class="jira-response"></textarea>
+        </div>
       </section>
 
       <footer>
-        We are using Node.js <script>document.write(process.version)</script>
-        and Electron <script>document.write(process.versions['electron'])</script>.
       </footer>
     </div>
   </body>
